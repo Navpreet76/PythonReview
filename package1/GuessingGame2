@@ -1,0 +1,9 @@
+import random
+number=random.randint(1,99)
+guesses=0
+
+while guesses < 5:
+    guess = int(raw_input("Enter an integer from 1 to 99: "))
+    guesses +=1
+    print "this is your %d guess" %guesses
+	
